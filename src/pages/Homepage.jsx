@@ -39,9 +39,9 @@ function Homepage() {
         </section>
       </Element>
 
-      <Element name="section-funfacts">
+      {/* <Element name="section-funfacts">
         <Funfacts />
-      </Element>
+      </Element> */}
 
       <Element name="section-services">
         <section className="shadow-blue white-bg padding">
@@ -64,23 +64,23 @@ function Homepage() {
         </section>
       </Element>
 
-      <Element name="section-pricing">
+      {/* <Element name="section-pricing">
         <section className="shadow-blue white-bg padding">
           <SectionHeading title="Pricing table" />
           <PricingTable />
         </section>
-      </Element>
+      </Element> */}
 
-      <Element name="section-testimonials">
+      {/* <Element name="section-testimonials">
         <section className="shadow-blue white-bg padding">
           <SectionHeading title="Testimonials" />
           <Testimonials />
         </section>
-      </Element>
+      </Element> */}
 
-      <Element name="section-clients">
+      {/* <Element name="section-clients">
         <Clients />
-      </Element>
+      </Element> */}
 
       {/* <Element name="section-blogs">
         <section className="shadow-blue white-bg padding">

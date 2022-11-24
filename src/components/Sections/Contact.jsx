@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const contactData = {
-  phone: ["+44 1632 960428"],
-  email: ["hello@bako.com"],
-  location: "West Palm Beach, 4669 Travis Street",
+  phone: ["+91 7904779032"],
+  email: ["manimp2496@gmail.com"],
+  location: "4/38-21 Kullamede , Therkkupalayam , Pallipalayam (Agraharam Post) , Namakkal , 638008",
 };
 
 function Contact() {
@@ -56,7 +56,7 @@ function Contact() {
 
   return (
     <div className="row">
-      <div className="col-md-4 mb-4 mb-md-0">
+      <div className="col-md-12 mb-4 mb-md-0">
         <div className="contact-info mb-5">
           <i className="icon-phone"></i>
           <div className="details">
@@ -83,7 +83,7 @@ function Contact() {
           </div>
         </div>
       </div>
-
+{/* 
       <div className="col-md-8">
         <form className="contact-form" onSubmit={submitHandler}>
           <div className="row">
@@ -150,7 +150,7 @@ function Contact() {
           </button>
         </form>
         {handleAlerts()}
-      </div>
+      </div> */}
     </div>
   );
 }
