@@ -10,8 +10,8 @@ import {
 } from "react-icons/fa";
 
 const headerData = {
-  name: "Bako Doe",
-  designation: "Web Developer",
+  name: "Manikandan.R",
+  designation: "UI / UX & React JS Developer",
   imageThumb: "/images/logo.png",
   social: {
     facebook: "https://facebook.com",
@@ -45,7 +45,7 @@ function Header({ toggleHeader, toggleHandler }) {
           <span></span>
         </button>
         <Link to="/" className="logo">
-          <img src={headerData.imageThumb} alt={headerData.name} />
+          <img className="nir-logo" src={headerData.imageThumb} alt={headerData.name} />
         </Link>
         <Link to="/" className="site-title dot ml-2">
           {headerData.name}
@@ -68,10 +68,10 @@ function Header({ toggleHeader, toggleHandler }) {
           <span aria-hidden="true">&times;</span>
         </button>
         <div className="header-inner d-flex align-items-start flex-column">
-          <Link to="/">
-            <img src={headerData.imageThumb} alt={headerData.name} />
+          <Link to="/" className="logo">
+            <img className="nir-logo" src={headerData.imageThumb} alt={headerData.name} />
           </Link>
-          <Link to="/" className="site-title dot mt-3">
+          <Link to="/" className="site-title  mt-3">
             {headerData.name}
           </Link>
 
@@ -169,7 +169,7 @@ function Header({ toggleHeader, toggleHandler }) {
                   </Link>
                 )}
               </li>
-              <li>
+              {/* <li>
                 {currentPath === "/" ? (
                   <ScrollLink
                     activeClass="active"
@@ -186,7 +186,7 @@ function Header({ toggleHeader, toggleHandler }) {
                     <i className="icon-pencil"></i>Blog
                   </Link>
                 )}
-              </li>
+              </li> */}
               <li>
                 {currentPath === "/" ? (
                   <ScrollLink

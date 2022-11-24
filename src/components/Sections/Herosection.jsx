@@ -2,9 +2,9 @@ import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 
 const herosectionData = {
-  name: "Bako Doe",
+  name: "Manikandan .R",
   aboutMe:
-    "He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.",
+    "UI / UX & REACT JS DEVELOPER",
 };
 
 function Herosection() {
@@ -16,9 +16,9 @@ function Herosection() {
       <div className="cta mx-auto mt-2">
         <h1 className="mt-0 mb-4">
           I’m {herosectionData.name}
-          <span className="dot"></span>
+          {/* <span className="dot"></span> */}
         </h1>
-        <p className="mb-4">{herosectionData.aboutMe}</p>
+        <p className="mb-4 site-slogan">{herosectionData.aboutMe}</p>
         <ScrollLink
           activeClass="active"
           to="section-portfolios"
